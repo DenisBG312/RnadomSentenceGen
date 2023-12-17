@@ -33,7 +33,6 @@ class Program
             string randomAdverb = RandomPick(adverbs);
             string randomDetail = RandomPick(details);
 
-
             string who = $"{randomName} from {randomPlace}";
             string action = $"{randomAdverb} {randomVerb} {randomNoun}";
             string sentence = $"{who} {action} {randomDetail}";
